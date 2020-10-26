@@ -47,9 +47,9 @@ class Office365Authenticator < ::Auth::OAuth2Authenticator
   end
 end
 
-auth_provider title: 'with Office365',
+auth_provider title: 'prin Office365',
               enabled_setting: "office365_enabled",
-              message: 'Log in via Office365',
+              message: 'Autentificare prin Office365',
               frame_width: 920,
               frame_height: 800,
               authenticator: Office365Authenticator.new(
